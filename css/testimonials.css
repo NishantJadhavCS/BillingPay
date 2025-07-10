@@ -8,21 +8,20 @@
     margin: auto;
 }
 
-.features-header.center-header {
+.testimonials-header {
     text-align: center;
-    max-width: 1000px;
-    margin: 0 auto 50px auto;
+    margin-bottom: 50px;
 }
 
-.features-header.center-header h2 {
+.testimonials-header h2 {
     font-size: 2.5rem;
-    margin-bottom: 10px;
-    color: var(--text-main);
+    color: var(--text-black);
 }
 
-.features-header.center-header p {
-    font-size: 1.2rem;
+.testimonials-header p {
     color: var(--text-muted);
+    font-size: 1.1rem;
+    margin-top: 10px;
 }
 
 .testimonials-grid {
