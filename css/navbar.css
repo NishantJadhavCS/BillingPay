@@ -1,17 +1,20 @@
-/* Basic styling */
 .navbar {
-    width: 100%;
-    background: #fff;
+    width: 90vw;
+    background: #ffab366e;
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
-    top: 0;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 999;
 }
 
 .navbar-container {
-    max-width: 1200px;
+    max-width: 100%;
     margin: auto;
-    padding: 10px 20px;
+    padding: 18px 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,7 +24,6 @@
     height: 50px;
 }
 
-/* Nav links center */
 .nav-links {
     list-style: none;
     display: flex;

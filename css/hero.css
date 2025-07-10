@@ -4,21 +4,23 @@
     --color-sky: #E8F9FF;
     --color-soft: #C4D9FF;
     --color-purple: #C5BAFF;
-    --color-dark: #290e67;
+    --color-secondary: #0054d8;
+    --color-dark: #042046;
     --text-white: #FFFFFF;
+    --text-main: #042046;
     --text-black: #333333;
     --text-muted: #666666;
-    --color-50: #f4f3ff;
-    --color-100: #ece8ff;
-    --color-200: #dad5ff;
-    --color-300: #c5baff;
-    --color-400: #9f88fd;
-    --color-500: #8158fa;
-    --color-600: #7235f2;
-    --color-700: #6323de;
-    --color-800: #521dba;
-    --color-900: #451a98;
-    --color-950: #290e67;
+    --color-50: #fffaec;
+    --color-100: #fff3d4;
+    --color-200: #ffe3a7;
+    --color-300: #ffcd70;
+    --color-400: #ffac36;
+    --color-500: #ff920f;
+    --color-600: #f77805;
+    --color-700: #c85906;
+    --color-800: #9e450e;
+    --color-900: #7f3a0f;
+    --color-950: #451c05;
 }
 
 * {
@@ -54,7 +56,7 @@ body {
 
 .hero-left h1 {
     font-size: 4.8rem;
-    color: #333;
+    color: var(--color-dark);
     margin-bottom: 15px;
 }
 
@@ -68,7 +70,7 @@ body {
 .hero-btn {
     display: inline-block;
     padding: 12px 25px;
-    background: var(--color-700);
+    background: var(--color-500);
     color: var(--text-white);
     border-radius: 8px;
     text-decoration: none;
@@ -81,7 +83,7 @@ body {
 }
 
 .hero-btn:hover {
-    background: var(--color-500);
+    background: var(--color-700);
     transform: translateY(-2px);
 }
 
