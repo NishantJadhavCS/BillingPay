@@ -99,22 +99,44 @@ body {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .hero {
+        padding: 100px 30px;
+        height: auto;
+    }
+
     .hero-container {
         flex-direction: column;
         text-align: center;
+        gap: 30px;
     }
 
     .hero-left h1 {
-        font-size: 2.2rem;
+        font-size: 2.8rem;
+    }
+
+    .hero-left p {
+        font-size: 1.2rem;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding: 120px 20px;
+    }
+
+    .hero-left h1 {
+        font-size: 2rem;
     }
 
     .hero-left p {
         font-size: 1rem;
     }
 
-    .hero-left,
-    .hero-right {
-        flex: unset;
+    .hero-btn {
+        padding: 10px 18px;
+        font-size: 0.9rem;
     }
 }

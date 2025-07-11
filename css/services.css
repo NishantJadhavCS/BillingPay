@@ -107,3 +107,25 @@
         grid-template-columns: 1fr;
     }
 }
+
+.service-card.active::before {
+    transform: scale(15);
+}
+
+.service-card.active .icon,
+.service-card.active h3,
+.service-card.active p {
+    color: var(--text-white);
+}
+
+.service-card.active {
+    transform: translateY(-5px);
+}
+
+.service-card {
+    transition: transform 0.4s ease;
+}
+
+.service-card::before {
+    transition: transform 0.6s ease;
+}
